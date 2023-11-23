@@ -13,6 +13,8 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 .list {
   list-style: none;
@@ -29,9 +31,11 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
-.logo-web {
-  color: var(--primary-brand);
+.logo-studio {
+  color: #2e2f42;
+  font-weight: 700;
 }
 .section-titel {
   font-weight: 700;
@@ -85,6 +89,12 @@ body {
   letter-spacing: 0.02em;
   color: var(--text);
 }
+.header-address:hover {
+  color: #404bbf;
+}
+.header-address:focus {
+  color: #404bbf;
+}
 /* ----------heder--------- */
 /* ----------hero section---------- */
 .hero {
@@ -108,11 +118,24 @@ body {
   cursor: pointer;
   background: var(--primary-brand);
 }
+.hero-btn:hover {
+  background-color: #404bbf;
+}
+
+.hero-btn:focus {
+  background-color: #404bbf;
+}
 /* ----------hero---------- */
 /* ----------about---------- */
+.about {
+  background-color: #f4f4fd;
+}
 .about-titel {
 }
 .about-list {
+  background-color: #ffffff;
+}
+.subtitel {
 }
 .about-item {
 }
