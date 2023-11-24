@@ -24,7 +24,7 @@ body {
 }
 .logo {
   font-family: 'Raleway', sans-serif;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   display: flex;
@@ -161,10 +161,10 @@ body {
   background: var(--hero-background);
 }
 .footer-logo {
-  color: var(--light-mode);
+  color: #4d5ae5;
 }
 .footer-description {
-  color: var(--accent);
+  color: #f4f4fd;
 }
 /* ----------footer---------- */
 /* ----------menu---------- */
